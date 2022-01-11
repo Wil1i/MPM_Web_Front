@@ -18,6 +18,10 @@ html {
   height: 100%;
 }
 
+li{
+  list-style: none;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -1416,10 +1420,8 @@ html, body {
 }
 
 .hero-text h1 {
-  font-size: 64px;
   font-weight: 700;
   line-height: 1.3;
-  /* color: #fff; */
 }
 
 .hero-area div {
@@ -1437,7 +1439,6 @@ html, body {
 }
 
 .hero-area div.hero-text-tablecell div {
-  height: auto;
   vertical-align: middle;
 }
 
@@ -1457,11 +1458,41 @@ html, body {
 
 .top-list-item{
   background-color: white;
-  padding: 10px;
   border-radius: 10px;
-  margin: 20px;
+  margin: 40px;
   width: 500px;
   height: 70vh;
+}
+
+.top-list-image{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.top-list-title{
+  margin-bottom: 35px;
+  font-size: 50px;
+}
+
+.top-list-description{
+  color: rgb(82, 82, 82);
+}
+
+.top-list-item-top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 87%;
+}
+
+.top-list-item-bottom{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
 .hero-area div.hero-form {
