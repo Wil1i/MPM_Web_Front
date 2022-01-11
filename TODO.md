@@ -4,6 +4,7 @@
 - [ ] Replace letter-spacing to word-spacing
 - [ ] Remove background for scroll
 - [ ] Fix sub menu cursor and clickable
+- [ ] Add all informations to db (Address, Phone Number and...)
 
 ## index.html
 - [ ] Fix subtitle 

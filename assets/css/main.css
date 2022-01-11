@@ -1419,7 +1419,7 @@ html, body {
   font-size: 64px;
   font-weight: 700;
   line-height: 1.3;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .hero-area div {
@@ -1447,6 +1447,21 @@ html, body {
 
 .hero-btns a.bordered-btn {
   margin-left: 15px;
+}
+
+.top-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-list-item{
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  width: 500px;
+  height: 70vh;
 }
 
 .hero-area div.hero-form {
