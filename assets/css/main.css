@@ -1459,7 +1459,6 @@ html, body {
 .top-list-item{
   background-color: white;
   border-radius: 10px;
-  margin: 40px;
   width: 500px;
   height: 70vh;
 }
@@ -2475,6 +2474,10 @@ ul.social-link-team li a {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+.product-price::after{
+  content: "$";
 }
 
 p.product-price {
