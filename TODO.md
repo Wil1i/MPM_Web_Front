@@ -1,13 +1,11 @@
 - [ ] Create template for footer and header
 - [x] Fix page number (background for numbers is not circle)
-- [ ] text-direction rtl
-- [ ] Replace letter-spacing to word-spacing
-- [ ] Remove background for scroll
-- [ ] Fix sub menu cursor and clickable
+- [x] Replace letter-spacing to word-spacing
+- [x] Remove background for scroll
 - [ ] Add all informations to db (Address, Phone Number and...)
 
 ## index.html
-- [ ] Fix subtitle 
+- [x] Fix subtitle 
 
 ## cart.html
 - [ ] connect Quantity to Total using JS

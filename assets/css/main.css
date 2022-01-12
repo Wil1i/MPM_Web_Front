@@ -61,6 +61,10 @@ Version: 1.0
   font-family: 'Vazir';
 }
 
+*{
+  scrollbar-color: #F28123 transparent;
+}
+
 html {
   font-size: 14px;
   font-weight: 400;
