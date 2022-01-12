@@ -9,7 +9,7 @@
 
 ## cart.html
 - [ ] connect Quantity to Total using JS
-- [ ] Fix Quantity goes to minus numbers
+- [x] Fix Quantity goes to minus numbers
 - [ ] Redesign delete icon
 
 ## checkout.html
