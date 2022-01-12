@@ -2928,6 +2928,7 @@ table.order-details tbody td {
   .top-list-item{
     margin: 20px;
     height: 550px;
+    width: 95%;
   }
 
   .hero-area{
