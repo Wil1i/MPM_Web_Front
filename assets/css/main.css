@@ -699,6 +699,7 @@ ul.sub-menu li:last-child {
 
 .mean-bar a.meanmenu-reveal {
   background-color: #F28123;
+  border-radius: 5px;
 }
 
 .main-menu-wrap {
@@ -706,15 +707,20 @@ ul.sub-menu li:last-child {
 }
 
 .mean-container a.meanmenu-reveal {
-  color: #051922;
+  color: white;
 }
 
 .mean-container a.meanmenu-reveal span {
-  background-color: #051922;
+  background-color: white;
 }
 
 .mean-container .mean-nav ul li a {
   padding: 0.5em 5%;
+  color: black;
+}
+
+.mean-container .mean-nav ul li a:hover{
+  color: #F28123;
 }
 
 .mean-container .mean-nav ul li li a {
@@ -723,13 +729,21 @@ ul.sub-menu li:last-child {
 
 .mean-container .mean-nav ul li a.mean-expand {
   font-size: 16px;
-  height: 10px;
+  height: 17px;
   line-height: 10px;
-  width: 15px;
+  width: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F28123;
 }
 
 .mean-container a.meanmenu-reveal {
   padding: 8px 8px 6px;
+}
+
+nav.mean-nav > ul > li{
+  min-height: 45px;
 }
 
 nav.mean-nav > ul > li:first-child > a {
@@ -1561,6 +1575,7 @@ html, body {
   display: flex;
   justify-content: center; 
   align-items: center;
+  max-height: 80px;
 }
 
 .hero-area div.hero-form {
@@ -1680,6 +1695,7 @@ div.owl-controls, .owl-controls div {
 .list-box {
   overflow: hidden;
   word-spacing: 0.5px;
+  float: right;
 }
 
 .list-box .content h3 {
@@ -1687,17 +1703,21 @@ div.owl-controls, .owl-controls div {
   line-height: 22px;
   font-size: 18px;
   margin-bottom: 4px;
+  direction: rtl;
+  text-align: right;
 }
 
 .list-box .content p {
   margin-bottom: 0px;
   opacity: 0.75;
+  direction: rtl;
+  text-align: right;
 }
 
 .list-box .list-icon i {
   display: block;
   font-size: 24px;
-  margin-right: 15px;
+  margin-left: 15px;
   color: #F28123;
   width: 65px;
   height: 65px;
@@ -2928,10 +2948,14 @@ table.order-details tbody td {
   .top-list-item{
     margin: 20px;
     height: 550px;
-    width: 95%;
+    width: 92%;
   }
 
   .hero-area{
     height: 1500px;
   }
+}
+
+.mean-nav{
+  box-shadow: 0 0 10px 1px rgb(46, 46, 46);
 }
