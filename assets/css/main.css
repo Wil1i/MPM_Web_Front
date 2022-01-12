@@ -219,19 +219,13 @@ p:last-child {
 
 ----------------------------------------------------------------------------- */
 
-.fa-window-close{
+.fa-trash-alt{
   padding: 10px;
   border-radius: 5px;
-  font-family: 'Open Sans';
-  font-weight: 800;
   width: 35px;
   height: 35px;
   background-color: rgb(245, 199, 199);
   color: rgb(236, 45, 45);
-}
-
-.fa-window-close::before{
-  content : ""
 }
 
 .loader {
