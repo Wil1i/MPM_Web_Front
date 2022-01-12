@@ -133,6 +133,14 @@ h1, .h1 {
     font-size: 3rem;
     line-height: 3.25rem;
   }
+
+  .top-list{
+    width: 100%;
+  }
+
+  .top-list-item{
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 575.96px) {
@@ -2906,6 +2914,7 @@ table.order-details tbody td {
   .top-list{
     flex-direction: column;
     align-items: center;
+    padding: 0;
   }
 
   .top-list-item-left{
@@ -2918,9 +2927,10 @@ table.order-details tbody td {
 
   .top-list-item{
     margin: 20px;
+    height: 550px;
   }
 
   .hero-area{
-    height: 200%;
+    height: 1500px;
   }
 }
