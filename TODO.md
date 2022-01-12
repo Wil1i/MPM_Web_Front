@@ -20,3 +20,4 @@
 - [x] Check for Price if $ is not automaticly added set it to :before css
 - [ ] Move header buttons to right
 - [ ] Fix inputs in address section
+- [ ] When user clicked to any header, bring user to target tag (when user clicked list will be open but user is somewhere is not target position)
