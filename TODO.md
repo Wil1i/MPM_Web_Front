@@ -1,5 +1,5 @@
 - [ ] Create template for footer and header
-- [ ] Fix page number (background for numbers is not circle)
+- [x] Fix page number (background for numbers is not circle)
 - [ ] text-direction rtl
 - [ ] Replace letter-spacing to word-spacing
 - [ ] Remove background for scroll
