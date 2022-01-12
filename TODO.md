@@ -10,7 +10,7 @@
 ## cart.html
 - [ ] connect Quantity to Total using JS
 - [x] Fix Quantity goes to minus numbers
-- [ ] Redesign delete icon
+- [x] Redesign delete icon
 
 ## checkout.html
 - [ ] Set filter to Phone input
@@ -19,3 +19,4 @@
 - [x] Add something for Shipping Address we use in Iran
 - [x] Check for Price if $ is not automaticly added set it to :before css
 - [ ] Move header buttons to right
+- [ ] Fix inputs in address section
