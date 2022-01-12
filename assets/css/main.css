@@ -59,10 +59,11 @@ Version: 1.0
 
 *{
   font-family: 'Vazir';
+  scrollbar-color: #F28123 transparent;
 }
 
-*{
-  scrollbar-color: #F28123 transparent;
+input, textarea{
+  direction: rtl;
 }
 
 html {
@@ -2535,12 +2536,18 @@ ul.social-link-team li a {
   margin-bottom: 10px;
 }
 
+.product-price{
+  direction: rtl;
+}
+
 .product-price::after{
-  content: "$";
+  content: "تومان";
+  margin-right: 10px;
+  color: #555a5c;
+  font-size: 17px;
 }
 
 p.product-price {
-  font-family: 'Poppins', sans-serif;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 15px;

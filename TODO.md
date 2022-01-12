@@ -13,9 +13,9 @@
 - [ ] Redesign delete icon
 
 ## checkout.html
-- [ ] Fix Address placeholder
 - [ ] Set filter to Phone input
-- [ ] Comment Card Details and Shipping Address
-- [ ] Move Billing Address to Shipping Address
-- [ ] Add something for Shipping Address we use in Iran
-- [ ] Check for Price if $ is not automaticly added set it to :before css
+- [x] Comment Card Details and Shipping Address
+- [x] Move Billing Address to Shipping Address
+- [x] Add something for Shipping Address we use in Iran
+- [x] Check for Price if $ is not automaticly added set it to :before css
+- [ ] Move header buttons to right
