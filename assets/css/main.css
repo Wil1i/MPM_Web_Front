@@ -1372,6 +1372,7 @@ a.cart-btn {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  font-family: "Vazir";
 }
 
 a.cart-btn:hover {
@@ -2135,6 +2136,8 @@ span.comment-date {
 .cart-banner .content-column {
   position: relative;
   padding-top: 40px;
+  text-align: right;
+  direction: rtl;
 }
 
 .cart-banner .content-column h3 {
@@ -2642,7 +2645,6 @@ p.product-price span {
 }
 
 a.cart-btn {
-  font-family: "Poppins", sans-serif;
   display: inline-block;
   background-color: #f28123;
   color: #fff;
