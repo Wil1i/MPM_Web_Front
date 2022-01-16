@@ -11,7 +11,7 @@
 
 ## cart.html
 
-- [ ] connect Quantity to Total using JS
+- [ ] connect Quantity to Total using JS (Found a way to connect price to quantity)
 - [x] Fix Quantity goes to minus numbers
 - [x] Redesign delete icon
 
