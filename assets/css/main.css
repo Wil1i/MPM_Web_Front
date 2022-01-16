@@ -2288,6 +2288,8 @@ a.video-play-btn {
 .abt-section .abt-text {
   padding: 50px;
   padding-left: 30px;
+  direction: rtl;
+  text-align: right;
 }
 
 .abt-text p {
@@ -3007,4 +3009,9 @@ table.order-details tbody td {
 
 .mean-nav {
   box-shadow: 0 0 10px 1px rgb(46, 46, 46);
+}
+
+.shop-banner .container {
+  text-align: right;
+  direction: rtl;
 }
