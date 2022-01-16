@@ -5,14 +5,18 @@
 - [ ] Add all informations to db (Address, Phone Number and...)
 
 ## index.html
-- [x] Fix subtitle 
+
+- [x] Fix subtitle
+- [ ] Fix background color for items in header and move text to center from height
 
 ## cart.html
+
 - [ ] connect Quantity to Total using JS
 - [x] Fix Quantity goes to minus numbers
 - [x] Redesign delete icon
 
 ## checkout.html
+
 - [ ] Set filter to Phone input
 - [x] Comment Card Details and Shipping Address
 - [x] Move Billing Address to Shipping Address
