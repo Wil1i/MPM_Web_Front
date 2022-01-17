@@ -8,6 +8,8 @@
 
 - [x] Fix subtitle
 - [ ] Fix background color for items in header and move text to center from height
+- [ ] In the news side, fix title and information posistion for every news
+- [ ] In the news side, fix over height for very news
 
 ## cart.html
 

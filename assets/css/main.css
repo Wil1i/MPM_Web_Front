@@ -69,6 +69,12 @@ Version: 1.0
   direction: rtl;
 }
 
+.faTexts {
+  direction: rtl;
+  text-align: right;
+  float: right;
+}
+
 input,
 textarea {
   direction: rtl;
@@ -1838,6 +1844,8 @@ p.blog-meta span i {
 p.excerpt {
   line-height: 1.8;
   color: #555;
+  text-align: right;
+  direction: rtl;
 }
 
 .latest-news a.boxed-btn {
