@@ -65,6 +65,10 @@ Version: 1.0
   scrollbar-color: #f28123 transparent;
 }
 
+.faText {
+  direction: rtl;
+}
+
 input,
 textarea {
   direction: rtl;
@@ -707,8 +711,8 @@ nav.main-menu ul > li:hover ul {
   visibility: visible;
 }
 
-nav.main-menu ul li:last-child a {
-  display: inline-block;
+.iconTop {
+  display: inline-block !important;
 }
 
 nav.main-menu > ul li:last-child {
@@ -808,6 +812,7 @@ nav.main-menu ul ul.sub-menu li a {
   padding: 8px;
   font-size: 13px;
   font-weight: 600;
+  line-height: 30px;
 }
 
 nav.main-menu ul li.current-list-item > a {
@@ -1161,7 +1166,7 @@ ul.sub-menu li {
 }
 
 ul.sub-menu li:hover {
-  background-color: #f7cfae;
+  background-color: #fcebde;
 }
 
 ul.sub-menu li:hover a {
