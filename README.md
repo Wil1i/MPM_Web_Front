@@ -3,6 +3,7 @@
 - [x] Replace letter-spacing to word-spacing
 - [x] Remove background for scroll
 - [ ] Add all informations to db (Address, Phone Number and...)
+- [ ] Optimize loading time
 
 ## index.html
 
